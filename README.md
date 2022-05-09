@@ -1,2 +1,0 @@
-# learning-note
-learning Note
