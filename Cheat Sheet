@@ -880,3 +880,8 @@ security 필터 이전에 작동하게 하고싶은 필터가 있다면
 Security Config 에
 
 http.addfilterBefore를 쓰자
+
+http.addFilterBefore(new 내필터(), SecurityContextPersistenceFilter.class);
+
+라고 해버리면 서버 실행 되고 가장 빠른 필터가 됨~
+
